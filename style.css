@@ -79,3 +79,30 @@ button:active{
     transform: scale(0.9);
 
 }
+@media (max-width: 600px) {
+    
+    .container{
+        margin: 5%;
+    }
+
+    h1{
+        font-size: 24px;
+    }
+
+    p{
+        font-size: 22px;
+    }
+
+    .password{
+        padding: 12px;
+    }
+
+    .password input{
+        font-size: 16px;
+    }
+
+    button{
+        width: 100%; /* full width button */
+        font-size: 15px;
+    }
+}
