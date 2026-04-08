@@ -11,11 +11,14 @@
 <div class="container">
     <h1> Generator a</h1>
     <p>Random Password</p>
-    <div>
-    <input type="text" id="password" readonly>
-    <i class="fa-regular fa-copy"></i>
+    <div class="password">
+    <input type="text" id="password" placeholder="Your Password">
+    <i class="fa-regular fa-copy" onclick="copyPassword()"></i>
     </div>
-    <button id="generate"><i class="fas fa-bolt"></i>Generate Password</button>
+    <button id="generate" onclick="generatePassword()"><i class="fas fa-bolt"  ></i>Generate Password</button>
 </div>
+
+<script src="app.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
 </html>

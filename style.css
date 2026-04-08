@@ -28,3 +28,54 @@ p{
     display: inline-block;
 }
 
+.password{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    width: 70%;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.password input{
+    width: 100%;
+    font-size: 22px;
+    font-weight: 500;
+    border: none;
+}
+
+.password input:focus{
+    outline: none;
+}
+.password i{
+    font-size: 22px;
+    color: #019f55;
+    cursor: pointer;
+
+}
+
+.password i:active{
+    transition: transform 0.1s ease;
+    transform: scale(0.9);
+}
+button{
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #019f55;
+    border: none;
+    cursor: pointer;
+     transition: transform 0.1 ease;
+     border-radius: 10px;
+}
+button i{
+    margin-right: 5px;
+}
+
+button:active{
+    transform: scale(0.9);
+
+}
